@@ -9,3 +9,6 @@ example = "A l’issue des discussions en Arabie saoudite, le président ukraini
 
 ner_results = nlp(example)
 print(ner_results)
+
+for entity in ner_results:
+    print(entity)

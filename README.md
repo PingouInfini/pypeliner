@@ -17,7 +17,8 @@ Sur windows:
 
 ```
 pip install --upgrade pip setuptools wheel
-python -m spacy download fr_core_news_md
+python3 -m spacy download fr_core_news_md
+python3 -m spacy download en_core_web_sm
 ```
 
 # Training data
